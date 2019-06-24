@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>表格隔行变色</title>
+  <script type="text/javascript">
+  var str="";
+  str+="<table width=500 border=1 rules=all align=center>";
+  str+="	<tr bgColor=#cccccc>";
+  str+="	    <th>编号</th><th>新闻标题</th><th>发布时间</th>";
+  str+="	</tr>";
+  //变量初始化
+  var i=1;
+  //条件成功，则执行循环体，否则，退出循环
+  while(i<=100)
+  {
+	  //偶数行加背景色，奇数行不加背景色
+	  if(i%2==0)
+	  {
+			str+="	<tr bgColor='#ccccff'>";
+	  }
+	  else
+	  {
+			str+="	<tr>";
+	  }
+	  str+="			 <td>第<font color=red>"+i+"</font>行</td><td>&nbsp;</td><td>&nbsp;</td>";
+	  str+="	   </tr>";
+	  //变量更新
+	  i++;
+  }
+  str+="</table>";
+  document.write(str);
+  </script>
+ </head>
+ <body>
+
+ </body>
+</html>

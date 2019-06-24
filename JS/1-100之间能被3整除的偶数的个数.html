@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>计算1-100之间能被3整除的偶数的个数</title>
+  <script type="text/javascript">
+  	/*
+	（1）输出能被3整除的数
+	（2）挑出能被3整除的数
+	（3）再挑出能被2整除的数
+	（4）符合条件的累加
+	*/
+	var n=0;
+	for(var i=1;i<=100;i++)
+	{
+		if(i%3==0&&i%2==0)
+		{
+			n++;
+		}	
+	}
+	document.write("1-100之间能被3整除的偶数的个数:"+n);
+  </script>
+ </head>
+ <body>
+  
+ </body>
+</html>

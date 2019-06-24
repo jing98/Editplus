@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>练习</title>
+  <script type="text/javascript">
+	/*
+	一张纸的厚度是0.01毫米，则该纸对折30次后是多厚，反过来，一张纸对折几次后，就超过一米厚了
+	*/
+	var houdu=0.01/1000;
+	for(var i=1;i<=30;i++)
+	{
+		houdu*=2;
+		if(houdu>1&&houdu<=2)
+		{
+			document.write("对折"+i+"次后,超过了1米!</br>");
+		}
+	}
+	document.write("对折30次后，厚度："+houdu+"米");
+  </script>
+ </head>
+ <body>
+  
+ </body>
+</html>

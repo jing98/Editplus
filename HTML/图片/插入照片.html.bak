@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>插入图片</title>
+ </head>
+ <body>
+ <font size="5">
+  <p align="center">插入一张照片: <br />
+  <!--a href="http://pic.sogou.com/d?query=bts&ie=utf8&page=1&did=2&st=255&mode=255&phu=http%3A%2F%2Fimg4.duitang.com%2Fuploads%2Fitem%2F201603%2F11%2F20160311215554_hEULT.jpeg&p=40230500#did1"</a--> 
+<marquee><img src=" E:\Editplus代码\照片\20160311215554_hEULT.jpg"width="400" height="300" border="0" title="读者你好，这是防弹少年团的照片!" usemap="#abc"/></marquee>
+<br />
+<map name="abc">
+<area shape="circle" coords="115,56,26" href="http://pic.sogou.com/d?query=bts&ie=utf8&page=1&did=2&st=255&mode=255&phu=http%3A%2F%2Fimg4.duitang.com%2Fuploads%2Fitem%2F201603%2F11%2F20160311215554_hEULT.jpeg&p=40230500#did1" title="这是链接区域">
+</map>
+
+插入图片（设置边框为10像素，改变图片的宽度和高度）:<br />
+<marquee direction="right">
+<img src="E:\Editplus代码\照片\果果.jpg" width="350" height="180" border="10""/></marquee><br />
+</p>
+  </font>
+ </body>
+</html>

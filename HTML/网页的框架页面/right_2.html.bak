@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>右边主页面</title>
+ </head>
+ <body>
+  这是主页面，可在浮动框架中显示：</ br>
+  		<a href="left.html" target="if" title="显示在浮动框架中">left.html</a>
+		<a href="right.html" target="if" title="显示在浮动框架中">right.html</a>
+		<a href="mid.html" target="if" title="显示在浮动框架中">mid.html</a>
+		<a href="浮动框架index.html" target="if" title="显示在浮动框架中">index.html</a>
+		<iframe src="浮动框架index.html" width="280" height="80" name="if" scrolling="auto">
+		</iframe>
+ </body>
+</html>

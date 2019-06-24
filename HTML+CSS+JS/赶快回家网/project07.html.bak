@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>回家网</title>
+  <link href="css/style07.css" type="text/css" rel="stylesheet" />
+  <script type="text/javascript" src="js/js07.js"></script>
+ </head>
+
+ <body onload="changeColor()">
+ <div id="top_bg">
+ 		<div id="top">
+				<ul class="left">
+					<li><a href="#">登录</a></li>
+					<li><a href="#">免费注册</a></li>
+				</ul>
+				<ul class="right">
+					<li class="list" onmouseover="change('list_cur','block')" onmouseout="change('list_cur','none')">
+					<span>个人中心</span>
+					'</li>
+					<li class="line">|</li>
+					<li><span>使用须知</span></li>
+					<li class="line">|</li>
+					<li><span>收藏夹</span></li>
+					<li class="line">|</li>
+					<li><span>货物快运</span></li>
+					<li class="line">|</li>
+					<li><span>联系我们</span></li>
+				</ul>
+		</div>
+ </div>
+  <div id="nav_bg">
+  </div>
+  <div id="banner">
+		<ul id="week">
+		</ul>
+		<table id="tb1" class="table">
+		</table>
+  </div>
+	<div id="footer">
+	</div>
+
+
+ </body>
+</html>

@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>框架综合实例</title>
+ </head>
+
+ <frameset rows="80,*" frameborder="no" border="0" framespacing="0">
+ 	<frame src="top_2.html" name="top" scrolling="no" noresize="noresize" />
+	<frameset cols="150,*" frameborder="no" border="0" framespacing="0">
+			<frame src="left_2.html" name="left" scrolling="no" noresize="noresize" />
+			<frame src="right_2.html" name="right" />
+	</frameset>
+ </frameset>
+ <body>
+ </body>
+</html>

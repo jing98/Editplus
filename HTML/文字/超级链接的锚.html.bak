@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title></title>
+ </head>
+ <body>
+ <font size="5">
+  <a name="top">这里是顶部的锚</a></br>
+  <ul>
+  <li> <a href="#1">第一任</a><br /></li>
+  <li><a href="#2">第二任</a><br /></li>
+  <li><a href="#3">第三任</a><br /></li>
+  <li> <a href="#4">第四任</a><br /></li>
+  <li><a href="#5">第五任</a><br /></li>
+  <li><a href="#6">第六任</a><br /></li>
+  </ul>
+  <h2>美国历任总统</h2>
+@第1任(1789-1797)<a name="1">这里是第一任锚</a><br />
+姓名：乔治·华盛顿<br />
+George Washington<br />
+生卒：1732-1799<br />
+政党：联邦<br />
+@第二任(1797-1801)<a name="2">这里是第二任锚</a><br />
+姓名：约翰·亚当斯<br />
+John Adams<br />
+生卒:1735-1826<br />
+政党：联邦<br />
+@第三任(1801-1809)<a name="3">这里是第三任锚</a><br />
+姓名：托马斯·杰斐逊<br />
+Thomas Jefferson<br />
+生卒：1743-1826<br />
+  </font>
+ </body>
+</html>

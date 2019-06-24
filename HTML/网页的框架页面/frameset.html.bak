@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>框架页面</title>
+ </head>
+ <frameset cols="100,100,*" frameborder="1" framespacing="25" bordercolor="#ff0000">
+ <!--*代表未被分配的剩余部分-->
+  	<frame src="left.html" name="leftframe"  noresize="noresize" scrolling="auto" />
+	<!--noresize属性即为禁止浏览者调整帖的比例-->
+	<frame src="mid.html" name="midframe"  scrolling="no" />
+	<frame src="right.html" name="rightframe" />
+ </frameset>
+ <body>
+ </body>
+</html>

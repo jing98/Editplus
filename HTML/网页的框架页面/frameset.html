@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>框架页面</title>
+ </head>
+ <frameset cols="100,100,*" frameborder="1" framespacing="25" bordercolor="#ff0000">
+ <!--*代表未被分配的剩余部分，frameborder取值为1（yes）或0（no），取值为1设置显示边框，为0则不显示，framespacing属性取值为帖之间的间距，间距越大，边框越粗-->
+  	<frame src="left.html" name="leftframe"  noresize="noresize" scrolling="auto" />
+	<!--noresize属性即为禁止浏览者调整帖的比例，scrolling属性给帖加上滚动条，auto：当页面内容无法完全显示于帖内时，将自动出现滚动条，no：无论页面内容多少，始终没有滚动条，yes：无论页面内容多少，始终有滚动条-->
+	<frame src="mid.html" name="midframe"  scrolling="no" />
+	<frame src="right.html" name="rightframe" />
+ </frameset>
+ <body>
+ </body>
+</html>

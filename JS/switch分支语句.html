@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>switch-case</title>
+  <script type="text/javascript">
+  //实例：今天是星期几
+  /*
+	（1）创建一个日期时间对象，中有很多信息：时、分、秒、年、月、日、星期
+	（2）取出日期对象中的星期值
+	（3）根据星期值（0-6）来输出中文的星期几
+  */
+  //（1）创建一个日期时间对象，其中Date()是系统函数，首字母大写
+  var today=new Date();
+  //（2）从Date对象中取出星期值
+  var week=today.getDay();			//返回0-6，0代表星期日
+  alert(week);
+  //使用switch来输出今天是星期几
+  var str;
+  switch(week)
+  {
+		case 1:
+				str="一";
+				break;
+		case 2:
+				str="二";
+				break;
+		case 3:
+				str="三";
+				break;
+		case 4:
+				str="四";
+				break;
+		case 5:
+				str="五";
+				break;
+		case 6:
+				str="六";
+				break;
+		default:
+				str="日";
+	}
+	document.write("今天是星期"+str);
+  </script>
+ </head>
+ <body>
+  
+ </body>
+</html>

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>使用数组保存个人信息</title>
+  <script type="text/javascript">
+  //（1）创建数组
+  var arr=["张三","男",30,true,"大专",];
+  //（2）构建输出的结果
+  var str="<h2>"+arr[0]+"的基本信息</h2>";
+  str+="姓名："+arr[0];
+  str+="<br/>性别："+arr[1];
+  str+="<br/>年龄："+arr[2];
+  str+="<br/>婚否："+(arr[3]?"已婚":"未婚");
+  str+="<br/>学历："+arr[4];
+  str+="<br/毕业院校：>"+(arr[5]?arr[5]:"未填写");
+  //（3）输出结果
+  document.write(str);
+  </script>
+ </head>
+ <body>
+  
+ </body>
+</html>

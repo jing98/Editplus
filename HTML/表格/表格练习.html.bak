@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+ </head>
+ <body>
+ <font size="3">
+<center>课程表</center>
+  <table align="center" border="2" bordercolor="blue" width="500" height="200">
+  	<tr>
+		<th  bordercolor="blue">项目</th>
+		<th colspan="5"  bordercolor="blue">上课</th>
+		<th colspan="2"  bordercolor="blue">休息</th>
+	</tr>
+	<tr>
+		<th  bordercolor="blue">星期</th>
+		<th  bordercolor="blue">星期一</th>
+		<th  bordercolor="blue">星期二</th>
+		<th  bordercolor="blue">星期三</th>
+		<th  bordercolor="blue">星期四</th>
+		<th  bordercolor="blue">星期五</th>
+		<th  bordercolor="blue">星期六</th>
+		<th  bordercolor="blue">星期日</th>
+	</tr>
+	<tr>
+		<td  rowspan="4" bordercolor="blue">上午</td>
+		<td bordercolor="blue">语文</td>
+		<td bordercolor="blue">数学</td>
+		<td bordercolor="blue">英语</td>
+		<td bordercolor="blue">英语</td>
+		<td bordercolor="blue">物理</td>
+		<td bordercolor="blue">计算机</td>
+		<td rowspan="4" align="center" bordercolor="blue">休息</td>
+	</tr>
+	<tr>
+		<td bordercolor="blue">数学</td>
+		<td bordercolor="blue">数学</td>
+		<td bordercolor="blue">地理</td>
+		<td bordercolor="blue">历史</td>
+		<td bordercolor="blue">化学</td>
+		<td bordercolor="blue">计算机</td>
+	</tr>
+	<tr>
+		<td bordercolor="blue">化学</td>
+		<td bordercolor="blue">语文</td>
+		<td bordercolor="blue">体育</td>
+		<td bordercolor="blue">计算机</td>
+		<td bordercolor="blue">英语</td>
+		<td bordercolor="blue">计算机</td>
+	</tr>
+	<tr>
+		<td bordercolor="blue">政治</td>
+		<td bordercolor="blue">英语</td>
+		<td bordercolor="blue">体育</td>
+		<td bordercolor="blue">历史</td>
+		<td bordercolor="blue">地理</td>
+		<td bordercolor="blue">计算机</td>
+	</tr>
+	<tr>
+		<td rowspan="2" bordercolor="blue">下午</td>
+		<td bordercolor="blue">语文</td>
+		<td bordercolor="blue">数学</td>
+		<td bordercolor="blue">英语</td>
+		<td bordercolor="blue">英语</td>
+		<td bordercolor="blue">物理</td>
+		<td bordercolor="blue">计算机</td>
+		<td rowspan="2" align="center" bordercolor="blue">休息</td>
+	</tr>
+	<tr>
+		<td bordercolor="blue">数学</td>
+		<td bordercolor="blue">数学</td>
+		<td bordercolor="blue">地理</td>
+		<td bordercolor="blue">历史</td>
+		<td bordercolor="blue">化学</td>
+		<td bordercolor="blue">计算机</td>
+	</tr>
+  </table>
+  </font>
+ </body>
+</html>

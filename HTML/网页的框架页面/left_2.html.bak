@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>左边超级链接列表</title>
+ </head>
+ <body bgcolor="#eeeeee">
+ 链接列表<hr />
+  <a href="left.html" target="right" title="显示在right帖中">left.html</a><hr />
+ </body>
+</html>

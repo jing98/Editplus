@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>九九乘法表</title>
+  <script type="text/javascript">
+  /*
+		（1）输出1行1列的表格
+		（2）输出9行9列的表格
+		（3）输出9行9列的表格
+		（4）输出梯形表格
+		（5）填入数据
+  */
+  var str="";
+  str+="  <table width=600 border=1 rules=all align=center>";
+  //i代表行号,j代表列号
+  for(var i=1;i<=9;i++)
+  {
+	  str+="   <tr>";
+	  /*
+		第1行（i=1）1个单元格（j<=1）
+		第2行（i=2）2个单元格（j<=2）单元格循环2次
+		......
+	  */
+	  for(var j=1;j<=i;j++)
+	  {
+		 str+="	  <td>"+j+"&times;"+i+"="+(j*i)+"</td>";
+	  }
+	  str+="   </tr>"
+  }
+  str+="  </table>";
+  document.write(str);
+  </script>
+ </head>
+ <body>
+  
+ </body>
+</html>
